@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="body__container">
+        <input type="text" id="newTask" placeholder="New Task">
+        <button id="at__btn" onclick="addTask()">Add Task</button>
+    </div>
+
+    <div class="btns__container">
+        <button onclick="listTasksFor()" class="btns">List Tasks (for loop)</button>
+        <button class="btns" onclick="listTasksWhile()">List Tasks (while loop)</button>
+        <button class="btns" onclick="listTasksDoWhile()">List Tasks (do while loop)</button>
+    </div>
+    <div class="task__container">
+        <h2>Task</h2>
+    </div>
+    <div class="task__lists">
+        <ul id="tasksList"></ul>
+    </div>
+    
+
+</body>
+</html>
